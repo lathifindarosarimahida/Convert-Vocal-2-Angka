@@ -17,7 +17,14 @@ public class ConvertVocal2Angka {
     String identitas = "Lathifinda Rosari Mahida / X RPL 2 / 19";
         
     tampilJudul(identitas);        
-   
     }
+    private static String tampilInput() {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Masukkan Kalimat : ");
+        String kalimat = scanner.nextLine();
+        System.out.println("Kalimat Asli : " + kalimat);
+        return kalimat;
     }
+}
     
