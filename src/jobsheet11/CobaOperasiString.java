@@ -63,6 +63,11 @@ public static void main(String[] args) {
     System.out.println("pecah berdasarkan huruf 'r' di variabel tclean  : ");
     for(int i=0;i<arrTr.length;i++)
         System.out.println(arrTr[i]);
+    
+    double d = 1545454000;
+    System.out.println(String.format("Uang saya %,.4f", d));
+
+    System.out.println(String.format(Locale.forLanguageTag("in-ID"), "Uang saya Rp %,.2f", d));
 }
 
 }
